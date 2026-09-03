@@ -11,7 +11,53 @@
 
 Bem-vindos, futuros Desenvolvedores de Sistemas da **EEEP Professor Sebastião Vasconcelos Sobrinho**! Este repositório é o seu ambiente oficial de código. Aqui, nós não apenas lemos teoria; nós investigamos, construímos algoritmos e resolvemos problemas reais do mercado de trabalho.
 
-Nossa jornada será 100% focada na linguagem **Python**, uma ferramenta multiplataforma de alto nível com sintaxe limpa e expressiva, amplamente utilizada na indústria de tecnologia para desenvolvimento de software, automação, inteligência artificial e análise de dados.
+Nossa jornada será 100% focada na linguagem **Python**, com aulas teóricas em Jupyter Notebooks (`.ipynb`) e todas as atividades práticas e desafios desenvolvidos diretamente em **scripts individuais `.py`**, simulando o fluxo real de trabalho de programadores.
+
+---
+
+## 🍴 GUIA OBRIGATÓRIO: Como Criar seu Repositório Individual (FORK)
+
+Como somos uma turma de 45 desenvolvedores, **ninguém deve enviar commits diretamente para este repositório matriz**. Cada estudante deve criar o seu próprio repositório individual através do recurso **Fork** do GitHub.
+
+```text
+[ Repositório do Professor (Matriz/Template) ]
+                      │
+            ( Botão "Fork" no GitHub )
+                      ▼
+[ Repositório Individual do Aluno no GitHub ] (ex: joao-silva/LogicaDeProgramacaoDS1_2026.2)
+                      │
+               ( git clone )
+                      ▼
+[ Computador do Laboratório / VS Code ] ────► ( edita arquivos .py )
+                      │
+           ( git add + commit + push )
+                      ▼
+[ Seu Repositório Pessoal no GitHub Atualizado ]
+```
+
+### 📋 Passo a Passo para o Aluno:
+
+1. **Faça o Fork:**
+   * No topo desta página, clique no botão **`Fork`** (canto superior direito).
+   * Confirme a criação do fork na sua conta pessoal do GitHub.
+2. **Clone o SEU repositório no computador do laboratório:**
+   ```bash
+   git clone https://github.com/SEU-USUARIO/LogicaDeProgramacaoDS1_2026.2.git
+   ```
+3. **Abra a pasta no VS Code e resolva os exercícios nos arquivos `.py`:**
+   * Navegue até o módulo da aula (ex: `02_conceitos_basicos/`).
+   * Abra o arquivo do exercício correspondente (ex: `exercicio_01_gestao_trafego.py`).
+   * Execute seu código no terminal:
+     ```bash
+     python exercicio_01_gestao_trafego.py
+     ```
+4. **Envie suas respostas com Git:**
+   ```bash
+   git add .
+   git commit -m "feat(modulo-02): resolucao dos exercicios e desafio"
+   git push origin main
+   ```
+5. **Cadastre o link do seu Fork na tabela abaixo!**
 
 ---
 
@@ -19,55 +65,31 @@ Nossa jornada será 100% focada na linguagem **Python**, uma ferramenta multipla
 
 ```text
 📦 logica_de_programacao_python
-┣ 📜 README.md                                  <- Você está aqui!
+┣ 📜 README.md                                  <- Portal principal e Guia do Fork
 ┣ 📂 00_preparacao_do_ambiente                  <- Git, GitHub e fluxo de trabalho
 ┣ 📂 01_nocoes_e_fundamentos                    <- Algoritmos, lógica e introdução ao Python
-┣ 📂 02_conceitos_basicos                       <- Variáveis, tipos de dados, operadores e I/O
-┣ 📂 03_estruturas_de_decisao                   <- Condicionais (if, elif, else, match)
-┣ 📂 04_estruturas_de_repeticao                 <- Laços iterativos (for, while, break)
-┣ 📂 05_subprogramas_e_funcoes                  <- Modularização (def, retorno, escopo, lambda)
-┣ 📂 06_estruturas_de_dados                     <- Coleções (listas, tuplas, matrizes, dicts, sets)
-┣ 📂 07_manipulacao_de_arquivos                 <- Persistência em disco e tratamento de exceções
-┗ 📂 08_projetos_finais_mvp                     <- Desenvolvimento de sistemas práticos completos
+┣ 📂 02_conceitos_basicos                       <- Variáveis, tipos, operadores, I/O (5 exercícios .py + 1 desafio .py)
+┣ 📂 03_estruturas_de_decisao                   <- Condicionais if/else/elif/match (5 exercícios .py + 1 desafio .py)
+┣ 📂 04_estruturas_de_repeticao                 <- Laços iterativos for/while (5 exercícios .py + 1 desafio .py)
+┣ 📂 05_subprogramas_e_funcoes                  <- Modularização, def e lambda (5 exercícios .py + 1 desafio .py)
+┣ 📂 06_estruturas_de_dados                     <- Listas, tuplas, dicts, sets (5 exercícios .py + 1 desafio .py)
+┣ 📂 07_manipulacao_de_arquivos                 <- Persistência em disco e try/except (5 exercícios .py + 1 desafio .py)
+┗ 📂 08_projetos_finais_mvp                     <- 3 Softwares MVPs completos (.py)
 ```
 
 ---
 
-## 🎮 Dinâmica das Aulas: "Detetive de Código"
+## 🧑‍💻 Repositórios dos Alunos da Turma (45 Desenvolvedores)
 
-1. **Fundamentação Teórica (`.md`):** Explicações diretas e conceituais do raciocínio lógico antes de digitar código.
-2. **Investigação Prática em Sala (`.ipynb`):** Aulas interativas em Jupyter Notebooks com exemplos guiados pelo professor e desafios práticos para os alunos completarem.
-3. **Bugs Investigativos (`desafio_XX.ipynb`):** Desafios práticos com códigos com bugs de lógica ou sintaxe para você encontrar, corrigir e documentar.
-4. **Listas de Missões (`lista_XX_exercicios.md`):** Exercícios contextualizados com problemas do cotidiano e da nossa região (Tianguá, Ibiapaba e Ceará).
+| Nº | Nome Completo | Usuário GitHub | Link do Fork | Status |
+| :---: | :--- | :---: | :--- | :---: |
+| 01 | Aluno(a) 01 | `@usuario1` | [Repositório Individual](https://github.com) | 🟡 Em andamento |
+| 02 | Aluno(a) 02 | `@usuario2` | [Repositório Individual](https://github.com) | 🟡 Em andamento |
+| 03 | Aluno(a) 03 | `@usuario3` | [Repositório Individual](https://github.com) | 🟡 Em andamento |
+| 04 | Aluno(a) 04 | `@usuario4` | [Repositório Individual](https://github.com) | 🟡 Em andamento |
+| 05 | Aluno(a) 05 | `@usuario5` | [Repositório Individual](https://github.com) | 🟡 Em andamento |
 
----
-
-## 🚀 Como Submeter Atividades via Git & GitHub
-
-1. Faça o clone do seu repositório individual:
-   ```bash
-   git clone <URL_DO_SEU_REPOSITORIO>
-   ```
-2. Resolva a atividade no arquivo indicado.
-3. Adicione e registre suas alterações:
-   ```bash
-   git add .
-   git commit -m "feat(modulo-02): resolucao da lista 01 de exercicios"
-   ```
-4. Envie para o GitHub:
-   ```bash
-   git push origin main
-   ```
-
----
-
-## 🧑‍💻 Repositórios dos Alunos da Turma
-
-| Nº | Aluno(a) | Repositório no GitHub | Status |
-| :---: | :--- | :--- | :---: |
-| 01 | Estudante 01 | [Link do Repositório](#) | 🟡 Em andamento |
-| 02 | Estudante 02 | [Link do Repositório](#) | 🟡 Em andamento |
-| 03 | Estudante 03 | [Link do Repositório](#) | 🟡 Em andamento |
+> *(Os alunos devem editar este README em seu primeiro commit para inserir seu nome e link do Fork).*
 
 ---
 

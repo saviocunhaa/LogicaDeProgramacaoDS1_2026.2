@@ -1,15 +1,16 @@
 # 📦 Módulo 02: Conceitos Básicos, Tipos de Dados e I/O
 
-Neste módulo, daremos os primeiros passos na manipulação de dados na memória, operações aritméticas e interação com o usuário via terminal.
+### 📋 Aulas Expositivas e Teoria:
+* 📓 [`aula_01_variaveis_e_tipos_primitivos.ipynb`](aula_01_variaveis_e_tipos_primitivos.ipynb)
+* 📓 [`aula_02_operadores_e_io.ipynb`](aula_02_operadores_e_io.ipynb)
 
-### 📋 Conteúdo do Módulo:
-* 📓 [`aula_01_variaveis_e_tipos_primitivos.ipynb`](aula_01_variaveis_e_tipos_primitivos.ipynb) - Alocação na memória, tipagem dinâmica e tipos primitivos (`int`, `float`, `str`, `bool`).
-* 📓 [`aula_02_operadores_e_io.ipynb`](aula_02_operadores_e_io.ipynb) - Operadores aritméticos, funções `input()` e `print()`, f-strings e *casting*.
-* 📓 [`desafio_01_bug_matematico.ipynb`](desafio_01_bug_matematico.ipynb) - Desafio investigativo de correção de bugs matemáticos e de tipagem.
-* 📜 [`lista_01_exercicios.md`](lista_01_exercicios.md) - Lista de fixação prática com 5 exercícios de fixação.
+### 🕵️ Desafio Investigativo (.py):
+* 🐍 [`desafio_01_bug_matematico.py`](desafio_01_bug_matematico.py)
 
-### 🎯 Objetivos de Aprendizagem:
-1. Declarar variáveis seguindo as convenções da PEP 8 (`snake_case`).
-2. Identificar e manipular os quatro tipos primitivos fundamentais do Python.
-3. Receber dados do usuário via console, converter tipos e formatar saídas.
-4. Aplicar a precedência correta de operadores matemáticos.
+### 📜 Lista de Exercícios Práticos (.py):
+* 🐍 [`exercicio_01_gestao_trafego.py`](exercicio_01_gestao_trafego.py)
+* 🐍 [`exercicio_02_consumo_kawasaki.py`](exercicio_02_consumo_kawasaki.py)
+* 🐍 [`exercicio_03_conta_sushi.py`](exercicio_03_conta_sushi.py)
+* 🐍 [`exercicio_04_casting_dados.py`](exercicio_04_casting_dados.py)
+* 🐍 [`exercicio_05_media_ponderada.py`](exercicio_05_media_ponderada.py)
+* 📄 [`lista_01_exercicios.md`](lista_01_exercicios.md) - Enunciados detalhados.

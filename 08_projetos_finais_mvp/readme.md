@@ -1,14 +1,8 @@
-# 🏆 Módulo 08: Projetos Finais e MVPs Práticos
+# 🏆 Módulo 08: Softwares e Projetos Finais (MVPs)
 
-Parabéns por chegar ao módulo de integração! Aqui, você aplicará todos os conhecimentos adquiridos (Variáveis, I/O, Decisões, Repetições, Funções, Estruturas de Dados e Arquivos) para construir sistemas funcionais completos (MVPs - *Minimum Viable Products*).
+Neste módulo prático de encerramento, os alunos constroem aplicações completas em Python em arquivos `.py`, aplicando todos os pilares estudados.
 
-### 📋 Projetos Disponíveis:
-* 📓 [`projeto_01_organizador_de_estudos.ipynb`](projeto_01_organizador_de_estudos.ipynb) - Sistema de Gestão e Cronograma de Estudos para Desenvolvedores.
-* 📓 [`projeto_02_controle_de_notas_e_gastos.ipynb`](projeto_02_controle_de_notas_e_gastos.ipynb) - Sistema de Gestão Financeira e Acadêmica de Turmas.
-* 📓 [`projeto_03_quiz_educacional.ipynb`](projeto_03_quiz_educacional.ipynb) - Jogo interativo de perguntas e respostas com ranking persistente em arquivo.
-
-### 🎯 Critérios de Avaliação dos Projetos:
-1. **Legibilidade e Organização:** Código limpo com funções bem definidas e nomes semânticos (PEP 8).
-2. **Robustez:** Tratamento de entradas inválidas do usuário com `try-except` e condicionais.
-3. **Persistência:** Gravação e leitura correta dos dados em arquivos de texto.
-4. **Completude:** Atendimento a todos os requisitos do enunciado do MVP.
+### 📋 Softwares para Desenvolvimento:
+* 🐍 [`projeto_01_organizador_de_estudos.py`](projeto_01_organizador_de_estudos.py) - Sistema de Gestão de Estudos e Metas Diárias.
+* 🐍 [`projeto_02_controle_de_notas_e_gastos.py`](projeto_02_controle_de_notas_e_gastos.py) - Sistema de Gestão Financeira e Rendimento de Turmas.
+* 🐍 [`projeto_03_quiz_educacional.py`](projeto_03_quiz_educacional.py) - Jogo Educacional Interativo com Ranking Persistente.
