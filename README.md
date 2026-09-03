@@ -44,20 +44,23 @@ Como somos uma turma de 45 desenvolvedores, **ninguém deve enviar commits diret
    ```bash
    git clone https://github.com/SEU-USUARIO/LogicaDeProgramacaoDS1_2026.2.git
    ```
-3. **Abra a pasta no VS Code e resolva os exercícios nos arquivos `.py`:**
+3. **Abra a pasta no VS Code e instale as extensões recomendadas:**
+   * Ao abrir a pasta, o VS Code exibirá uma notificação no canto inferior direito: *"Este repositório recomenda instalar extensões..."*.
+   * Clique em **"Instalar Tudo"** (ou `Install All`) para configurar automaticamente Python, Jupyter, Error Lens, Indent Rainbow e Code Runner.
+4. **Resolva os exercícios nos arquivos `.py`:**
    * Navegue até o módulo da aula (ex: `02_conceitos_basicos/`).
    * Abra o arquivo do exercício correspondente (ex: `exercicio_01_gestao_trafego.py`).
-   * Execute seu código no terminal:
+   * Execute seu código no terminal (ou clique no botão ▶️ no canto superior direito):
      ```bash
      python exercicio_01_gestao_trafego.py
      ```
-4. **Envie suas respostas com Git:**
+5. **Envie suas respostas com Git:**
    ```bash
    git add .
    git commit -m "feat(modulo-02): resolucao dos exercicios e desafio"
    git push origin main
    ```
-5. **Cadastre o link do seu Fork na tabela abaixo!**
+6. **Cadastre o link do seu Fork na tabela abaixo!**
 
 ---
 

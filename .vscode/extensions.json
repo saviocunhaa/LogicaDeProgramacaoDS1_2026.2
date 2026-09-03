@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-toolsai.jupyter",
+    "MS-CEINTL.vscode-language-pack-pt-BR",
+    "oderwat.indent-rainbow",
+    "usernamehw.errorlens",
+    "formulahendry.code-runner",
+    "eamodio.gitlens",
+    "GitHub.vscode-pull-request-github",
+    "PKief.material-icon-theme"
+  ]
+}
