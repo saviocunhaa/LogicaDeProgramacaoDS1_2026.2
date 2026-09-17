@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Ambientes virtuais
+env/
+venv/
+.venv/
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
