@@ -1,0 +1,6 @@
+calcular_acrescimo = lambda valor: valor * 1.10
+
+# testezin
+
+print(f"{calcular_acrescimo(100):.2f}")
+print(f"{calcular_acrescimo(250):.2f}")

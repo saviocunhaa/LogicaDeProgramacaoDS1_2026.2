@@ -9,3 +9,13 @@ Ao acertar, imprima "Acesso Permitido" e finalize o programa.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+
+correct_pass = "2002"
+
+while True:
+    tentativa = input("Insira a senha de acesso: ")
+    if tentativa == correct_pass:
+        print("Acesso Garantido!")
+        break
+    else:
+        print("Acesso Negado! Senha incorreta.")

@@ -9,3 +9,9 @@ cujo resto da divisão por 5 seja igual a 2 ou igual a 3.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+
+x = int(input("Insira o primeiro valor!:"))
+y = int(input("Insira o segundo valor!:"))
+for numero in range(x,y,+1):
+    if numero % 5 == 2 or numero % 5 == 3:
+        print(numero)

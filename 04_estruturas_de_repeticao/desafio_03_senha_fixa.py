@@ -20,3 +20,15 @@ SUA MISSÃO:
 #         print("Senha Invalida")
 
 # TODO: Escreva aqui a versão corrigida:
+
+senha_correta = "2002"
+while True:
+    tentativa = input("Digite a senha de acesso:")
+    if tentativa == senha_correta:
+        print("Acesso Garantido!")
+        break
+    else:
+        print("Senha Inválida!")
+
+        # o problema era o break, sua falta no acesso permitido continuava resetando e pedindo a escrita novamente, ao colocar o break ele completa a condição
+        # e termina o programa!
