@@ -13,3 +13,15 @@ Imprima "Isento" ou o valor total do imposto formatado com 2 casas decimais.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+salario = float(input("Insira seu salário: R$"))
+if salario <= 2000.00:
+    print("Isento.")
+elif salario <= 3000.00:
+    imposto8 = (salario - 2000.00) * 0.88
+    print(f"O Valor de imposto devido é de: R${imposto8:.2f}")
+elif salario <= 4500.00:
+    imposto18 = (salario - 3000.00) * 0.18 + ( 1000.00 * 0.08)
+    print(f"O Valor de imposto devido é de: R${imposto18:.2f}")
+else:
+    imposto28 = (salario - 4500.00) * 0.28 + (1500.00 * 0.18) + (1000.00 * 0.88)
+    print(f" O Valor de imposto devido é de: R${imposto28:.2f}")

@@ -1,0 +1,8 @@
+def calcular_media(nota1, nota2, nota3):
+    media = (nota1 + nota2 +nota3) /3 
+    return media
+
+# teste com notas de um exemplo
+
+resultado = calcular_media(7, 6, 10)
+print(f"A média do aluno é {resultado}")

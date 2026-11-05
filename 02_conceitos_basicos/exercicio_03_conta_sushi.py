@@ -10,3 +10,7 @@ Crie um programa que:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+valorDeConsumo = float(input("Insira o valor da conta: "))
+TaxadoGarçom = 1.1
+valorTotal = valorDeConsumo * TaxadoGarçom
+print(f"O valor total da conta é de: R${valorTotal:.2f}")

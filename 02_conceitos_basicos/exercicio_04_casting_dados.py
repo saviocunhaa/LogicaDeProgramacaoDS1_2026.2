@@ -10,3 +10,9 @@ Imprima a idade calculada com uma mensagem personalizada.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+
+print("Bem-Vindo(a) a Calculadora de Idade!")
+nomedoUsuario = input( "Digite o seu nome: ")
+anodeNascimento = int(input("Insira seu Ano de nascimento: "))
+idadeaofimde2026 = 2026 - anodeNascimento
+print(f"Parabéns {nomedoUsuario}! Ao final de 2026 você tera {idadeaofimde2026}!!!")

@@ -12,3 +12,8 @@ Calcule e imprima o consumo médio da motocicleta (Km/L) formatado com 2 casas d
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+print("Bem-vindo ao planejador de viagens, o destino escolhido foi Beach Park (Aquiraz)")
+distanciaTotal = int(input("Por favor, digite a distancia percorrida: "))
+totalDeCombustivelGasto = float(input("Por favor, digite o total de combustível gasto em litros: "))
+consumoMedio = distanciaTotal / totalDeCombustivelGasto
+print(f"O Consumo de sua Kawasaki Versys 300 foi de: {consumoMedio:.2f}km/l")
