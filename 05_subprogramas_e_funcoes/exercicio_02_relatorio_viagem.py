@@ -11,3 +11,10 @@ No programa principal, leia os dados, execute as funções e mostre o custo tota
 """
 
 # TODO: Desenvolva as funções e o programa principal abaixo:
+
+def calcular_pontuacao_total(fase1, fase2, fase3):
+    return fase1 + fase2 + fase3
+
+resultado = calcular_pontuacao_total(80, 90, 100)
+print(f"Pontuação Total da Equipe: {resultado} pontos")
+

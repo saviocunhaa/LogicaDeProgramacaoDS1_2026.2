@@ -12,3 +12,15 @@ SUA MISSÃO:
 """
 
 # TODO: Desenvolva as funções modulares abaixo:
+
+def gerar_relatorio_produto(nome, custo, venda):
+    lucro = venda - custo
+    print("-" * 30)
+    print(f"Produto: {nome}")
+    print(f"Custo: R$ {custo:.2f}")
+    print(f"Venda: R$ {venda:.2f}")
+    print(f"Lucro Líquido: R$ {lucro:.2f}")
+    print("-" * 30)
+
+gerar_relatorio_produto("Teclado Gamer", 80.00, 150.00)
+
